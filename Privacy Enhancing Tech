@@ -1,0 +1,60 @@
+# Practical 7: Privacy-Enhancing Technologies (PETs)
+
+## Aim
+To study and compare Privacy-Enhancing Technologies such as VPN, Tor Browser, and secure messaging applications.
+
+## Introduction
+Privacy-Enhancing Technologies (PETs) are tools that help protect users' personal information and online activities. They reduce tracking, improve communication security, and provide greater control over privacy.
+
+## Objectives
+- To understand the purpose of VPNs.
+- To study how Tor Browser protects online privacy.
+- To understand end-to-end encryption in messaging apps.
+- To compare different privacy-enhancing technologies.
+
+## Technologies Studied
+
+### 1. VPN (Virtual Private Network)
+A VPN creates an encrypted connection between a user's device and a VPN server. It helps protect internet traffic from being easily monitored on public Wi-Fi networks.
+
+**Example:** Proton VPN, NordVPN.
+
+### 2. Tor Browser
+Tor Browser routes internet traffic through multiple relays to make tracking the user's original IP address more difficult.
+
+**Example:** Tor Browser.
+
+### 3. Secure Messaging Applications
+Secure messaging applications use encryption to protect messages from unauthorized access. End-to-end encryption ensures that only the communicating users can read message contents.
+
+**Example:** Signal, WhatsApp.
+
+## Procedure
+1. Studied the working principles of VPN, Tor Browser, and secure messaging applications.
+2. Identified the privacy features offered by each technology.
+3. Compared their security and privacy benefits.
+4. Examined their limitations.
+
+## Comparison
+
+| Technology | Main Purpose | Privacy Benefit |
+|---|---|---|
+| VPN | Encrypts internet traffic between device and VPN server | Protects traffic from local network monitoring |
+| Tor Browser | Routes traffic through multiple relays | Makes IP-based tracking more difficult |
+| Secure Messaging | Encrypts private messages | Protects message contents through end-to-end encryption |
+
+## Observations
+- VPNs help secure internet connections but do not guarantee complete anonymity.
+- Tor makes tracking more difficult but may reduce browsing speed.
+- End-to-end encryption protects message contents, but it does not necessarily hide all communication metadata.
+
+## Result
+Successfully studied and compared VPN, Tor Browser, and secure messaging applications as Privacy-Enhancing Technologies.
+
+## Conclusion
+Privacy-Enhancing Technologies help users protect their online activities and personal information. Using these tools appropriately improves digital privacy and security.
+
+## References
+- https://www.torproject.org/
+- https://signal.org/
+- https://protonvpn.com/
