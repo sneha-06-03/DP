@@ -1,0 +1,71 @@
+# Practical 2: Privacy Impact Assessment (PIA) of Instagram
+
+## Aim
+To conduct a Privacy Impact Assessment (PIA) of Instagram to identify potential privacy risks associated with collecting, processing and storing users' personal information.
+
+## Introduction
+Privacy Impact Assessment (PIA) is a process used to identify and evaluate privacy risks before introducing a new technology, system or process.
+
+In this practical, we examine a hypothetical Instagram feature that uses users' location information to recommend nearby accounts.
+
+## Objectives
+1. Identify personal information required by the proposed feature.
+2. Identify possible privacy risks.
+3. Evaluate the impact of data collection on users.
+4. Suggest measures to reduce privacy risks.
+5. Improve user privacy and data protection.
+
+## Requirements
+- Instagram platform
+- Privacy risk assessment checklist
+- Internet connection
+
+## Data Collected
+The proposed feature may require the following information:
+
+1. User ID and username.
+2. Location information.
+3. Device information.
+4. User preferences.
+5. Account activity.
+
+## Procedure
+1. Select Instagram as the organization.
+2. Identify the proposed feature and its purpose.
+3. Identify the personal information required.
+4. Examine how the information will be collected and processed.
+5. Identify possible privacy risks.
+6. Evaluate the impact of each risk.
+7. Suggest suitable privacy protection measures.
+
+## Privacy Risk Assessment
+
+| Privacy Risk | Impact | Suggested Solution |
+|---|---|---|
+| Location exposure | High | Limit location access |
+| Unauthorized data access | High | Use encryption and access control |
+| Excessive data collection | Medium | Apply data minimization |
+| Third-party data sharing | High | Implement strict data-sharing policies |
+| User profiling | Medium | Provide privacy controls |
+
+## Privacy Protection Measures
+1. Collect only necessary personal information.
+2. Obtain informed user consent.
+3. Encrypt sensitive information.
+4. Restrict unauthorized access.
+5. Allow users to control location permissions.
+6. Provide options to delete personal information.
+7. Conduct regular privacy assessments.
+
+## Observation
+The assessment shows that location-based recommendations may create privacy risks if users' location information is collected or processed without sufficient transparency and control.
+
+Proper security measures and user consent are necessary to minimize these risks.
+
+## Result
+The Privacy Impact Assessment of the proposed Instagram location-based recommendation feature was successfully conducted. Potential privacy risks were identified and suitable measures were suggested to protect users' personal information.
+
+## References
+1. https://www.instagram.com/
+2. https://www.facebook.com/privacy/policy/
+3. https://www.meity.gov.in/
