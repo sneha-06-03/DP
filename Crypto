@@ -1,0 +1,115 @@
+# Practical 4: Implementation of Cryptographic Techniques
+
+## Aim
+To implement basic cryptographic techniques such as encryption, hashing and digital signatures using Python.
+
+## Introduction
+Cryptography is the technique of protecting information by converting it into a secure format.
+
+It helps maintain data confidentiality, integrity and authenticity.
+
+The three techniques used in this practical are:
+
+1. Encryption: Converts readable data (plaintext) into unreadable data (ciphertext).
+2. Hashing: Converts data into a fixed-length hash value.
+3. Digital Signature: Verifies the authenticity and integrity of digital information.
+
+## Requirements
+- Python
+- VS Code
+- Cryptography library
+
+Install the library using:
+
+```bash
+pip install cryptography
+```
+
+## Program
+
+Create a Python file named `cryptography_practical.py`.
+
+```python
+from cryptography.fernet import Fernet
+import hashlib
+
+# 1. Encryption and Decryption
+key = Fernet.generate_key()
+cipher = Fernet(key)
+
+message = "My personal data is protected"
+
+encrypted = cipher.encrypt(message.encode())
+decrypted = cipher.decrypt(encrypted).decode()
+
+print("Original Message:", message)
+print("Encrypted Message:", encrypted.decode())
+print("Decrypted Message:", decrypted)
+
+# 2. Hashing
+data = "Instagram Data Privacy"
+
+hash_value = hashlib.sha256(data.encode()).hexdigest()
+
+print("\nOriginal Data:", data)
+print("SHA-256 Hash:", hash_value)
+
+# 3. Digital Signature
+from cryptography.hazmat.primitives.asymmetric import rsa, padding
+from cryptography.hazmat.primitives import hashes
+
+private_key = rsa.generate_private_key(
+    public_exponent=65537,
+    key_size=2048
+)
+
+public_key = private_key.public_key()
+
+signature = private_key.sign(
+    message.encode(),
+    padding.PSS(
+        mgf=padding.MGF1(hashes.SHA256()),
+        salt_length=padding.PSS.MAX_LENGTH
+    ),
+    hashes.SHA256()
+)
+
+try:
+    public_key.verify(
+        signature,
+        message.encode(),
+        padding.PSS(
+            mgf=padding.MGF1(hashes.SHA256()),
+            salt_length=padding.PSS.MAX_LENGTH
+        ),
+        hashes.SHA256()
+    )
+    print("\nDigital Signature: Verified Successfully")
+
+except Exception:
+    print("\nDigital Signature: Verification Failed")
+```
+
+## Procedure
+1. Install the cryptography library.
+2. Import the required Python libraries.
+3. Generate an encryption key.
+4. Encrypt and decrypt a sample message.
+5. Generate a SHA-256 hash of the data.
+6. Generate RSA public and private keys.
+7. Create and verify a digital signature.
+8. Execute the program and observe the output.
+
+## Expected Output
+- Original message is displayed.
+- Encrypted message is displayed in unreadable format.
+- Decrypted message displays the original text.
+- SHA-256 hash value is generated.
+- Digital signature is verified successfully.
+
+## Result
+The practical was successfully performed using Python. Encryption and decryption, SHA-256 hashing and RSA digital signatures were implemented to demonstrate basic cryptographic techniques used for data protection.
+
+## References
+1. https://cryptography.io/en/latest/
+2. https://docs.python.org/3/library/hashlib.html
