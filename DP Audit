@@ -1,0 +1,79 @@
+# Practical 1: Data Privacy Audit of Instagram
+
+## Aim
+To conduct a Data Privacy Audit of Instagram to identify privacy risks and examine how it collects, uses and protects users' personal information.
+
+## Introduction
+Instagram is a social media platform owned by Meta. It allows users to share photos, videos, reels and messages. It collects user information to provide its services and personalize the user experience.
+
+## Objectives
+1. Identify the types of data collected by Instagram.
+2. Examine how Instagram uses user information.
+3. Study its privacy and security features.
+4. Identify potential privacy risks.
+5. Suggest improvements for data protection.
+
+## Data Collected by Instagram
+1. Personal Information: Name, username and date of birth.
+2. Contact Information: Email address and phone number.
+3. Profile Information: Profile picture and bio.
+4. Activity Information: Likes, comments, searches and follows.
+5. Device Information: Device model, operating system and IP address.
+6. Location Information: Location-related information.
+7. User Content: Photos, videos, stories and messages.
+
+## Privacy and Security Features
+- Two-Factor Authentication (2FA)
+- Private Account Settings
+- Login Activity Monitoring
+- Password Protection
+- Security Alerts
+- Account Privacy Controls
+
+## Procedure
+1. Select Instagram as the organization.
+2. Identify the personal information collected.
+3. Examine how Instagram uses user data.
+4. Study its privacy and security features.
+5. Identify possible privacy risks.
+6. Suggest measures to improve data protection.
+
+## Privacy Audit Checklist
+
+| Audit Criteria | Observation |
+|---|---|
+| Privacy policy available | Yes |
+| Personal information collected | Yes |
+| User consent options available | Yes |
+| Private account option available | Yes |
+| Two-factor authentication available | Yes |
+| Login activity monitoring available | Yes |
+| Third-party data sharing | Yes |
+| Internal security independently verified | No |
+
+## Identified Privacy Risks
+1. Excessive collection of personal information.
+2. Unauthorized access to accounts.
+3. Phishing attacks and password theft.
+4. Misuse of personal information.
+5. Third-party data sharing risks.
+6. Exposure of location-related information.
+7. Possible data breaches.
+8. Excessive user tracking and profiling.
+
+## Recommendations
+1. Use strong passwords and two-factor authentication.
+2. Collect only necessary information.
+3. Improve transparency about data collection.
+4. Conduct regular security audits.
+5. Protect sensitive information using encryption.
+6. Monitor third-party access.
+7. Provide better privacy controls.
+
+## Result
+The Data Privacy Audit of Instagram was successfully conducted. Different types of personal information collected by Instagram were identified, its privacy and security features were examined, and potential privacy risks were identified. Suitable recommendations were suggested to improve data protection and user privacy.
+
+## References
+1. https://www.instagram.com/
+2. https://www.facebook.com/privacy/policy/
+3. https://about.meta.com/actions/safety/
