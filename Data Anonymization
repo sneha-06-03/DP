@@ -1,0 +1,109 @@
+# Practical 5: Implementation of Data Anonymization Techniques
+
+## Aim
+To implement data anonymization techniques such as K-Anonymity, Differential Privacy and Data Masking to protect personal information.
+
+## Introduction
+Data anonymization is the process of modifying personal information so that individuals cannot be easily identified.
+
+It helps protect sensitive information while allowing data to be used for analysis.
+
+The three techniques used are:
+
+1. K-Anonymity: Ensures that each individual has at least K-1 other individuals with similar identifying characteristics.
+2. Differential Privacy: Adds controlled mathematical noise to data to protect individual privacy.
+3. Data Masking: Hides sensitive information by replacing some characters with symbols.
+
+## Requirements
+- Python
+- VS Code
+- Pandas
+- NumPy
+
+Install the libraries:
+
+```bash
+pip install pandas numpy
+```
+
+## Program
+
+Create a Python file named `anonymization.py`.
+
+```python
+import pandas as pd
+import numpy as np
+
+# Sample Dataset
+data = {
+    "Name": ["Aman", "Riya", "Rahul", "Priya", "Karan", "Neha"],
+    "Age": [21, 22, 21, 22, 35, 36],
+    "City": ["Delhi", "Delhi", "Delhi", "Delhi", "Mumbai", "Mumbai"],
+    "Email": [
+        "aman@gmail.com",
+        "riya@gmail.com",
+        "rahul@gmail.com",
+        "priya@gmail.com",
+        "karan@gmail.com",
+        "neha@gmail.com"
+    ]
+}
+
+df = pd.DataFrame(data)
+
+print("Original Dataset:")
+print(df)
+
+# 1. Data Masking
+masked_df = df.copy()
+
+masked_df["Name"] = masked_df["Name"].str[0] + "***"
+masked_df["Email"] = masked_df["Email"].str[0] + "***@gmail.com"
+
+print("\nData Masking:")
+print(masked_df)
+
+# 2. K-Anonymity (K=2)
+k_df = df.copy()
+
+k_df["Age"] = (k_df["Age"] // 10) * 10
+k_df["Name"] = "***"
+k_df["Email"] = "***"
+
+print("\nK-Anonymity:")
+print(k_df)
+
+# 3. Differential Privacy (Illustration)
+true_count = len(df)
+epsilon = 1.0
+
+noise = np.random.laplace(0, 1 / epsilon)
+private_count = true_count + noise
+
+print("\nDifferential Privacy:")
+print("Actual Count:", true_count)
+print("Noisy Count:", round(private_count, 2))
+```
+
+## Procedure
+1. Import Pandas and NumPy libraries.
+2. Create a sample dataset containing personal information.
+3. Apply data masking to hide names and email addresses.
+4. Apply K-Anonymity by generalizing age and removing direct identifiers.
+5. Apply differential privacy by adding Laplace noise to the dataset count.
+6. Execute the program and observe the results.
+
+## Expected Output
+1. Original dataset containing personal information.
+2. Masked dataset with hidden names and email addresses.
+3. Anonymized dataset with generalized age groups.
+4. A noisy count generated using differential privacy.
+
+## Result
+The practical was successfully performed using Python. Three data anonymization techniques, namely K-Anonymity, Differential Privacy and Data Masking, were demonstrated to understand how personal information can be protected.
+
+## References
+1. https://pandas.pydata.org/
+2. https://numpy.org/
+3. https://en.wikipedia.org/wiki/K-anonymity
+4. https://en.wikipedia.org/wiki/Differential_privacy
