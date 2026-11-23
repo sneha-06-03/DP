@@ -1,0 +1,96 @@
+# Practical 10: Case Studies on Data Privacy
+
+## Aim
+To analyse real-world case studies related to data privacy breaches and privacy protection strategies.
+
+## Introduction
+Case studies help us understand how organizations handle personal data and what happens when data privacy is not properly protected. They also highlight the importance of security measures, transparency, and responsible data handling.
+
+## Objectives
+- To study real-world data privacy incidents.
+- To understand the causes and impacts of data breaches.
+- To examine successful privacy protection strategies.
+- To identify important lessons for organizations.
+
+## Case Study 1: Facebook–Cambridge Analytica Scandal
+
+**Overview:**  
+In 2018, it was revealed that personal information of Facebook users had been collected through a third-party application and shared with Cambridge Analytica without proper informed consent.
+
+**Privacy Issues:**
+- Unauthorized collection and sharing of user data.
+- Lack of transparency.
+- Misuse of personal information.
+
+**Impact:**
+- Loss of user trust.
+- Increased public concern about social media privacy.
+- Greater attention to data protection practices.
+
+**Lessons Learned:**
+- Organizations must obtain proper user consent.
+- Third-party access to personal data should be controlled.
+- Users should be informed about how their data is used.
+
+## Case Study 2: Equifax Data Breach
+
+**Overview:**  
+In 2017, Equifax, a major credit reporting agency, experienced a data breach that exposed sensitive personal information of approximately 147 million people.
+
+**Privacy Issues:**
+- Security vulnerabilities in systems.
+- Exposure of sensitive personal information.
+- Delayed response to the incident.
+
+**Impact:**
+- Risk of identity theft and financial fraud.
+- Loss of public trust.
+- Legal and financial consequences for the organization.
+
+**Lessons Learned:**
+- Security systems must be updated regularly.
+- Sensitive data should be properly protected.
+- Organizations need an effective breach response plan.
+
+## Case Study 3: Successful Privacy Protection Strategy
+
+**Example: End-to-End Encryption in Signal**
+
+**Overview:**  
+Signal is a secure messaging application that uses end-to-end encryption to protect message contents. Only the communicating users can read the messages.
+
+**Privacy Protection Measures:**
+- End-to-end encryption.
+- Secure communication.
+- Privacy-focused features.
+- Limited collection of user information.
+
+**Lessons Learned:**
+- Encryption helps protect private communication.
+- Privacy should be considered during application development.
+- Collecting less personal data can reduce privacy risks.
+
+## Comparison of Case Studies
+
+| Case Study | Main Issue or Strategy | Key Lesson |
+|---|---|---|
+| Facebook–Cambridge Analytica | Misuse of user data | Obtain informed consent |
+| Equifax | Exposure of sensitive data | Maintain strong security |
+| Signal | End-to-end encryption | Use privacy-focused technologies |
+
+## Observations
+- Data breaches can cause financial loss and damage an organization's reputation.
+- Lack of transparency can reduce user trust.
+- Encryption and responsible data collection improve privacy protection.
+- Organizations must follow appropriate data protection practices.
+
+## Result
+Successfully analysed two major data privacy incidents and one privacy protection strategy, identifying their key issues, impacts, and lessons.
+
+## Conclusion
+Data privacy is essential for protecting personal information. Organizations should maintain transparency, obtain proper consent, implement strong security measures, and use privacy-enhancing technologies to prevent misuse of data.
+
+## References
+- https://www.ftc.gov/
+- https://www.equifax.com/
+- https://signal.org/
